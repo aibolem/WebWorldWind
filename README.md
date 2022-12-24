@@ -1,6 +1,8 @@
 <img src="https://worldwind.arc.nasa.gov/img/nasa-logo.svg" height="100"/>
 
 # Web WorldWind
+
+<img src="https://worldwind.arc.nasa.gov/img/nasa-logo.svg" height="100"/>
  
 Web WorldWind 0.11.0 is now available on GitHub. The summary of changes is as follows:
 
