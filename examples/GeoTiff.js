@@ -66,10 +66,10 @@ requirejs(['./WorldWindShim',
         geoTiffLayer.showSpinner = true;
         wwd.addLayer(geoTiffLayer);
 
-var resourceUrl = "https://aibolem.github.io/chart-nuclide/example/black_sea_rgb.tif";
+//     var resourceUrl = "https://aibolem.github.io/chart-nuclide/example/black_sea_rgb.tif";
                
-      //  var resourceUrl = "https://worldwind.arc.nasa.gov/web/examples/data/black_sea_rgb.tif";
-
+       var resourceUrl = "https://worldwind.arc.nasa.gov/web/examples/data/black_sea_rgb.tif";
+0
         // Load the GeoTiff using the Reader's built-in XHR retrieval function.
         WorldWind.GeoTiffReader.retrieveFromUrl(resourceUrl, function (geoTiffReader, xhrStatus) {
             if (!geoTiffReader) {
