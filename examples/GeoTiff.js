@@ -61,6 +61,7 @@ requirejs(['./WorldWindShim',
 
         // Create GeoTiff layer and add it to the WorldWindow's layer list. Disabled until its image is loaded.
         var geoTiffLayer = new WorldWind.RenderableLayer("GeoTiff");
+     //   geoTiffLayer.enabled = false;
         geoTiffLayer.enabled = true;
         geoTiffLayer.showSpinner = true;
         wwd.addLayer(geoTiffLayer);
@@ -91,9 +92,9 @@ var resourceUrl = "https://aibolem.github.io/chart-nuclide/example/black_sea_rgb
 
             // Redraw the WorldWindow and point the camera towards the imagery location.
             wwd.redraw();
-            wwd.goTo(new WorldWind.Position(43.43, 39.93, 30000));
-        });
-//             wwd.goTo(new WorldWind.Position(43.80, 28.57, 30000));
+            wwd.goTo(new WorldWind.Position(43.80, 28.57, 30000));       
+            });
+//     wwd.goTo(new WorldWind.Position(43.43, 39.93, 30000));        
 
         // Create a layer manager for controlling layer visibility.
         var layerManager = new LayerManager(wwd);
