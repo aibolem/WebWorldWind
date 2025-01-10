@@ -88,12 +88,13 @@ var resourceUrl = "https://aibolem.github.io/chart-nuclide/example/black_sea_rgb
             geoTiffLayer.enabled = true;
             geoTiffLayer.showSpinner = false;
             layerManager.synchronizeLayerList();
-
             // Redraw the WorldWindow and point the camera towards the imagery location.
             wwd.redraw();
-            wwd.goTo(new WorldWind.Position(43.43, 39.93, 30000));
+            wwd.goTo(new WorldWind.Position(43.80, 28.57, 30000));
+
         });
-//             wwd.goTo(new WorldWind.Position(43.80, 28.57, 30000));
+            
+//                 wwd.goTo(new WorldWind.Position(43.43, 39.93, 30000));
 
         // Create a layer manager for controlling layer visibility.
         var layerManager = new LayerManager(wwd);
