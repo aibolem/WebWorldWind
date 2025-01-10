@@ -61,7 +61,7 @@ requirejs(['./WorldWindShim',
 
         // Create GeoTiff layer and add it to the WorldWindow's layer list. Disabled until its image is loaded.
         var geoTiffLayer = new WorldWind.RenderableLayer("GeoTiff");
-        geoTiffLayer.enabled = false;
+        geoTiffLayer.enabled = true;
         geoTiffLayer.showSpinner = true;
         wwd.addLayer(geoTiffLayer);
 
