@@ -23,7 +23,12 @@
 </head>
 <body>
 <div class="container">
-
+                               <div class="col-sm-9" id="globe">
+            <canvas id="canvasOne" width="1600" height="1600"; style="width: 100%; height: auto; background-color: black;">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+        </div>
+    </div>
     <div class="row">
         <div class="col-sm-3">
             <h4>Destination</h4>
@@ -35,16 +40,17 @@
                     </button>
                 </span>
             </div>
-            <br/>
-                    <div class="col-sm-9" id="globe">
-            <canvas id="canvasOne" width="1600" height="1600";
-                    style="width: 100%; height: auto; background-color: black;">
-                Your browser does not support HTML5 Canvas.
-            </canvas>
-        </div>
-    </div>
             <br>
             <h4>KML Elements</h4>
+                        <h5>Change surface transparency</h5>
+            <div id="transparency-slider" style="height:11px;width:200px"></div>
+            <p>
+                <label>Opacity:</label>
+                <input type="text" id="transparency" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <br
+                </div>
+            <br>
             <p>
                 The list below shows all elements parsed from the KML file.
                 <br />
