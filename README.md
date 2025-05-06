@@ -1,4 +1,4 @@
-![bild](https://raw.githubusercontent.com/aibolem/WebWorldWind/refs/heads/master/examples/data/blageo_100.png)
+<!-- ![bild](https://raw.githubusercontent.com/aibolem/WebWorldWind/refs/heads/master/examples/data/blageo_100.png) -->
 
 <img src="https://raw.githubusercontent.com/aibolem/WebWorldWind/refs/heads/master/examples/data/esa_logo_min.png" height="100"/>
 
