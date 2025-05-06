@@ -1,5 +1,9 @@
 <img src="https://worldwind.arc.nasa.gov/img/nasa-logo.svg" height="100"/>
 
+# UPploading STANdALONE dATA bit by bit ... 
+
+## nu stack här: M:\WEB\worldwind_standalonedata2\worldwind.arc.nasa.gov\standalonedata\Earth\BMNG256-200404\3\18
+
 # Web WorldWind
  
 Web WorldWind 0.11.0 is now available on GitHub. The summary of changes is as follows:
