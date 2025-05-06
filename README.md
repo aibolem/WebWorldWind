@@ -4,6 +4,64 @@
 
 ## nu stack här: M:\WEB\worldwind_standalonedata2\worldwind.arc.nasa.gov\standalonedata\Earth\BMNG256-200404\3\18
 
+### тObuild ImagePyramides:
+
+https://developers.google.com/kml/documentation/photos#viewVector
+
+![image](https://github.com/user-attachments/assets/852e6cea-85f9-41e6-ae5c-bf928a1d855d)
+
+```
+<PhotoOverlay>
+  <!-- inherited from Feature element -->   
+  <name>...</name>                      <!-- string -->   
+  <visibility>1</visibility>            <!-- boolean -->   
+  <open>0</open>                        <!-- boolean -->
+  <atom:author>...<atom:author>         <!-- xmlns:atom -->   
+  <atom:link>...</atom:link>            <!-- xmlns:atom -->   
+  <address>...</address>                <!-- string -->   
+  <AddressDetails xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">...
+      </AddressDetails>                 <!-- string -->  
+  <phoneNumber>...</phoneNumber>        <!-- string -->
+  <Snippet maxLines="2">...</Snippet>   <!-- string -->   
+  <description>...</description>        <!-- string -->   
+  <AbstractView>...</AbstractView>      <!-- Camera or LookAt -->   
+  <TimePrimitive>...</TimePrimitive>   
+  <styleUrl>...</styleUrl>              <!-- anyURI -->   
+  <StyleSelector>...</StyleSelector>   
+  <Region>...</Region>   
+  <ExtendedData>...</ExtendedData>    
+
+  <!-- inherited from Overlay element -->   
+  <color>ffffffff</color>               <!-- kml:color -->   
+  <drawOrder>0</drawOrder>              <!-- int -->     
+  <Icon>
+    <href>...</href>                    <!-- anyURI -->
+    ...
+  </Icon>         
+
+  <!-- specific to PhotoOverlay -->
+  <rotation>0</rotation>                <!-- kml:angle180 -->
+  <ViewVolume>
+    <leftFov>0</leftFov>                <!-- kml:angle180 -->
+    <rightFov>0</rightFov>              <!-- kml:angle180 -->
+    <bottomFov>0</bottomFov>            <!-- kml:angle90 -->
+    <topFov>0</topFov>                  <!-- kml:angle90 -->
+    <near>0</near>                      <!-- double -->
+  </ViewVolume>
+  <ImagePyramid>
+    <tileSize>256</tileSize>            <!-- int -->
+    <maxWidth>...</maxWidth>            <!-- int -->
+    <maxHeight>...</maxHeight>          <!-- int -->
+    <gridOrigin>lowerLeft</gridOrigin>  <!-- lowerLeft or upperLeft-->    
+  </ImagePyramid>
+  <Point>
+    <coordinates>...</coordinates>      <!-- lon,lat[,alt] -->
+  </Point>
+  <shape>rectangle</shape>              <!-- kml:shape -->
+</PhotoOverlay>
+
+```
+
 # Web WorldWind
  
 Web WorldWind 0.11.0 is now available on GitHub. The summary of changes is as follows:
