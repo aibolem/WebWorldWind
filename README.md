@@ -1,3 +1,5 @@
+[!bild](https://raw.githubusercontent.com/aibolem/WebWorldWind/refs/heads/master/examples/data/blageo_100.png)
+
 <img src="https://worldwind.arc.nasa.gov/img/nasa-logo.svg" height="100"/>
 
 # UPploading STANdALONE dATA bit by bit ... 
