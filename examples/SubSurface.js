@@ -25,11 +25,11 @@
  * WebWorldWind can be found in the WebWorldWind 3rd-party notices and licenses
  * PDF found in code  directory.
  */
-define(['../../src/WorldWind',
-        '../util/GoToBox',
-        '../util/LayersPanel',
-        '../util/ProjectionMenu',
-        '../util/TerrainOpacityController'],
+define(['../src/WorldWind',
+        '../../util/GoToBox',
+        '../../util/LayersPanel',
+        '../../util/ProjectionMenu',
+        '../../util/TerrainOpacityController'],
     function (ww,
               GoToBox,
               LayersPanel,
