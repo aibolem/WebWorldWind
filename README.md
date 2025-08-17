@@ -2,6 +2,8 @@
 
 # Web WorldWind
 
+# Georgie
+
 <img src="https://raw.githubusercontent.com/aibolem/WebWorldWind/develop/bay%C2%B5%E2%82%BD.png" />
 
 # S©reenSchoot of [µ₽] Bay @©olheti_w 
