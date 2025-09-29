@@ -44,10 +44,10 @@
 				<viewBoundScale>0.75</viewBoundScale>
 			</Icon>
 			<LatLonBox>
-				<north>47.02303969059936</north>
-				<south>38.68347884482257</south>
-				<east>51.54954360756528</east>
-				<west>35.83610682349136</west>
+					<north>45.4704200301912</north>
+					<south>40.10938303681844</south>
+					<east>50.72932466557656</east>
+					<west>36.68532041724676</west>
 				<rotation>-9.142284393310547</rotation>
 			</LatLonBox>
 		</GroundOverlay>
