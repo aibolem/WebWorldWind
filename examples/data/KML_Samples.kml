@@ -28,25 +28,25 @@
 	<name> ← ← Check in ☑ box button of GroundOverlayISOCAUNUC_by_Irakli_bARdavelid3e_m.l.</name>
 	<color>70ffffff</color>
                 <Icon>
-		<href>-1ISOCAUNUC_SI_975kb_R57.56_cr-min_Autorised-min.png</href>
+		<href>data/i2s_compressed-min.png</href>
 		<refreshMode>onExpire</refreshMode>
 		<viewBoundScale>0.75</viewBoundScale>
 	</Icon>
 	<LatLonBox>
-		<north>47.12294</north>
-		<south>38.41052</south>
-		<east> 51.325836</east>
-		<west>35.50998</west>
+		<north>45.4704200301912</north>
+		<south>40.10938303681844</south>
+		<east>50.72932466557656</east>
+		<west>36.68532041724676</west>
 	</LatLonBox>
                 <TimeStamp>
                     <when>2015-08-13T10:16:57</when>
                 </TimeStamp>
                 <Region>
                     <LatLonAltBox>
-		<north>47.12294</north>
-		<south>38.41052</south>
-		<east> 51.325836</east>
-		<west>35.50998</west>
+		<north>45.4704200301912</north>
+		<south>40.10938303681844</south>
+		<east>50.72932466557656</east>
+		<west>36.68532041724676</west>
                         <minAltitude>0</minAltitude>
                         <maxAltitude>1000000</maxAltitude>
                         <altitudeMode>clampToGround</altitudeMode>
