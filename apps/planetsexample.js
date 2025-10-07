@@ -1,4 +1,4 @@
-/* */
+/*dojo.js (humanised by i.bardavelid3e 'kodbarbier' Aibolem bArionleg ibanknatoPrad ComPoSARC uoxyc for NASA worldwebb Wind & mm sience 1932) */
 ! function(t, e) {
     if ("object" == typeof exports && "object" == typeof module) module.exports = e();
     else if ("function" == typeof define && define.amd) define([], e);
