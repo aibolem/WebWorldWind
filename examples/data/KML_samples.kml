@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>KML Samples</name>
+        <visibility>1</visibility>
+        <open>1</open>
+        <description>Unleash your creativity with the help of these examples!</description>
+<Folder>
+                    <name>Example of MultiGeometry</name>
+                    <visibility>1</visibility>
+                <Placemark>
+                    <name>Click to turn globe counter solar shild side to Europe</name>
+                    <visibility>1</visibility>
+                    <LookAt>
+                        <longitude>43</longitude>
+                        <latitude>43</latitude>
+                        <altitude>2000000</altitude>
+                        <heading>0</heading>
+                        <tilt>45</tilt>
+                        <range>50000</range>
+                    </LookAt>
+                </Placemark>
+            </Folder>
+<Folder>
+            <name>Aibolem bARIOnleg Composarc ibANKNAтОPrAd Imagery</name>
+            <visibility>1</visibility>
+<GroundOverlay>
+	<name> ← ← Check in ☑ box button of GroundOverlayISOCAUNUC_by_Irakli_bARdavelid3e_m.l.</name>
+	<color>70ffffff</color>
+                <Icon>
+		<href>data/iraklibardavelid3e_c_i_monetindwarf-min_webb_apng.png</href>
+		<refreshMode>onExpire</refreshMode>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>45.4704200301912</north>
+		<south>40.10938303681844</south>
+		<east>50.72932466557656</east>
+		<west>36.68532041724676</west>
+	</LatLonBox>
+                <TimeStamp>
+                    <when>2015-08-13T10:16:57</when>
+                </TimeStamp>
+                <Region>
+                    <LatLonAltBox>
+		<north>45.4704200301912</north>
+		<south>40.10938303681844</south>
+		<east>50.72932466557656</east>
+		<west>36.68532041724676</west>
+                        <minAltitude>0</minAltitude>
+                        <maxAltitude>1000000</maxAltitude>
+                        <altitudeMode>clampToGround</altitudeMode>
+                    </LatLonAltBox>
+                </Region>
+            </GroundOverlay>
+</Folder>
+        <Folder>
+            <name>Screen Overlays</name>
+            <description>Examples of screen overlays</description>
+            <ScreenOverlay>
+                <name>Absolute Positioning: Top left</name>
+                <Icon>
+                    <href>data/esa_logo_min.png</href>
+                </Icon>
+                <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+                <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+                <rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+                <size x="0" y="0" xunits="fraction" yunits="fraction"/>
+            </ScreenOverlay>
+        </Folder>
+    </Document>
+</kml>
